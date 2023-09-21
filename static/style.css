@@ -22,7 +22,7 @@ body {
 .hero {
   padding: 8vw 0 10vw 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
-    url("../armando-suarez-cueto-KFRxwozY9b0-unsplash.jpg");
+    url("/static/img/armando-suarez-cueto-KFRxwozY9b0-unsplash.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
