@@ -40,6 +40,42 @@ body {
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
+footer {
+  color: aliceblue;
+  background-image: linear-gradient(rgba(14 39 50 / 90%), rgb(14 39 50 / 90%)),
+    url("/static/img/footer_image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3vw 0;
+  line-height: 1.5;
+  font-family: poppins;
+}
+footer p {
+  margin: 0 10px;
+  font-size: 0.9em;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style-type: none;
+}
+footer a {
+  color: white;
+  opacity: 0.8;
+  font-size: 0.9em;
+}
+footer h3 {
+  font-weight: 700;
+}
 
 @media (max-width: 900px) {
   .hero h1 {
