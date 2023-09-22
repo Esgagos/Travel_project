@@ -42,7 +42,7 @@ body {
 }
 footer {
   color: aliceblue;
-  background-image: linear-gradient(rgba(14 39 50 / 90%), rgb(14 39 50 / 90%)),
+  background-image: linear-gradient(rgba(27 80 103), rgb(14 39 50 / 90%)),
     url("/static/img/footer_image.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -51,15 +51,18 @@ footer {
 }
 .footer-container {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 10%;
   padding: 3vw 0;
   line-height: 1.5;
   font-family: poppins;
 }
+.more-about-huelva {
+  margin-right: 4rem;
+}
 footer p {
-  margin: 0 10px;
+  margin-right: 4rem;
   font-size: 0.9em;
 }
 footer ul {
@@ -76,6 +79,11 @@ footer a {
 footer h3 {
   font-weight: 700;
 }
+@media (max-width: 1346px) {
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
 @media (max-width: 900px) {
   .hero h1 {
@@ -87,6 +95,11 @@ footer h3 {
   .hero a {
     padding: 12px 20px;
   }
+  .footer-container {
+
+  display: grid;
+  grid-template-columns: 1fr;
+  
 }
 @media (max-width: 648px) {
   .hero h1 {
@@ -113,4 +126,5 @@ footer h3 {
   .hero p {
     font-size: 1em;
   }
+
 }
