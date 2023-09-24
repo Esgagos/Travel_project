@@ -61,6 +61,105 @@ main {
   line-height: 2;
   padding: 1.25em 3.5em 1.25em 0;
 }
+.second-section {
+  padding: 3vw 9vw;
+  background-color: rgb(245, 241, 241);
+}
+/* .card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  background-color: white;
+} */
+/* .card-content-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+} */
+.second-section-container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 35px;
+  background-color: rgb(245, 241, 241);
+}
+.card {
+  background-color: white;
+  padding-bottom: 20px;
+}
+.second-section h2 {
+  font-family: poppins;
+}
+.text-align-center {
+  text-align: center;
+}
+.second-section img {
+  max-width: 50%;
+  height: 227px;
+  border-radius: 4px;
+}
+.embeded {
+  display: inline;
+  max-width: 1200px;
+  width: 100%;
+  border-radius: 4px;
+  aspect-ratio: 7/9;
+}
+.second-section h2 {
+  font-size: 2.5em;
+  font-family: poppins;
+  opacity: 0.7;
+}
+.btn {
+  display: block;
+  margin: 29px auto;
+  background-color: rgb(29, 77, 98);
+  border: none;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Poppins;
+  cursor: pointer;
+  border-radius: 4px;
+
+  /* background-color: #1d4d62;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none; */
+}
+.card-padding {
+  padding: 2vw;
+}
+/* .grid-3c {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+.second-section img {
+  max-width: 300px;
+  border-radius: 4px;
+} */
+.second-section p {
+  font-family: poppins;
+  opacity: 0.7;
+  margin-top: 0;
+}
+.second-section h4 {
+  font-family: poppins;
+  font-size: 1.5em;
+  margin-top: 0;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.second-section h5 {
+  font-family: poppins;
+  font-size: 1em;
+}
 
 footer {
   color: aliceblue;
@@ -110,7 +209,7 @@ footer h3 {
 @media (max-width: 1100px) {
   .first-section {
     grid-template-columns: 1fr;
-    padding: 3em;
+    padding: 2em;
   }
   .first-section img {
     display: none;
@@ -142,6 +241,10 @@ footer h3 {
   .hero a {
     padding: 6px 10px;
   }
+  .first-section p {
+    font-size: 0.8em;
+    padding: 0;
+  }
 }
 @media (max-width: 480px) {
   .hero h1 {
@@ -156,5 +259,9 @@ footer h3 {
   }
   .hero p {
     font-size: 1em;
+  }
+  .first-section p {
+    font-size: 0.8em;
+    padding: 0;
   }
 }
