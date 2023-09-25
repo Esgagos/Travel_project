@@ -1,6 +1,5 @@
 .hero h1 {
   font-size: 5em;
-
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
@@ -71,10 +70,6 @@ main {
   grid-template-columns: 1fr 1fr;
   gap: 0;
 }
-/* .card-content-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-} */
 .second-section-container-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
